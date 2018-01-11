@@ -1,0 +1,390 @@
+@charset "UTF-8";
+body{
+
+background-position: top center;
+	background-image: url(../img/bg.png);
+	background-size: auto;
+}
+
+
+h2{
+    color: #eb5033;
+
+}
+div {
+    font-size: 60px;
+    text-align: center;
+}
+.nlogo{
+	margin: 5%;
+	image-orientation: left;
+	
+}
+.bannerad{
+	margin: 5%;
+	image-orientation: right;
+}
+.row {
+	border: 2px solid  #9A191B;
+	justify-content: flex-end;
+	
+}
+
+nav ul{
+
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#mainnavigation nav ul {
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+#mainnavigation nav ul li {
+    
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+    height: 60px;
+}    
+
+#mainnavigation  nav ul li a {
+    width: 100%;
+    display: block;
+    color: #333;
+    text-decoration: none;
+    border-left: 0px solid; 
+    padding: 15px 10px;
+    font-size: 25px;
+}    
+
+
+#slider{
+    float:right;
+    width: 30%;
+    height: 250px;
+    background-color: grey;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 50px;    
+}
+
+#name{
+    width: 100%;
+    height: 50px;
+    background-color: crimson;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    float: left;
+    font-size: 40px;
+    color: black;
+
+}
+#content{
+    width: 100%;
+    height: 60px;
+    background-color: #f9f9f9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 20px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+}
+
+#bar1{
+    width: 30%;
+    float: left;
+    /*
+    padding: 20px;
+    */
+    background-color: #f9f9f9;
+    height: 350px;
+    font-size: 24px;
+    color: #eb5033;
+}
+.button{
+    background-color: #eb5033;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px; 
+    padding: 10px 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#bar2{
+    width: 30%;
+    float: left;
+    /*
+    padding: 20px;
+    */
+    background-color: #f9f9f9;
+    height: 350px;
+    font-size: 24px;
+    color: #eb5033;
+    font-size: 24px;
+}
+
+#bar3{
+    width: 40%;
+    float: left;
+    /*
+    padding: 20px;
+    */
+    background-color: #f9f9f9;
+    height: 350px;
+    font-size: 24px;
+    color: #eb5033;
+
+}
+
+#imgrachel{
+    width: 30%;
+    float: left;
+    height: 255px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#about{
+    /*
+    padding: 34px;
+    */
+    width: 70%;
+    height: 190px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    color: #333333;
+}
+
+#staff{
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    float: left;
+    font-size: 40px;
+    color: #eb5033;
+}
+
+#sf1{
+    width: 30%;
+    float: left;
+    /*
+    padding: 20px;
+    */
+    background-color: #f9f9f9;
+    height: 350px;
+    font-size: 24px;
+    color: #eb5033;
+    font-size: 20px;
+}
+
+#sf2{
+    width: 30%;
+    float: left;
+    /*
+    padding: 20px;
+    */
+    background-color: #f9f9f9;
+    height: 350px;
+    font-size: 24px;
+    color: #eb5033;
+    font-size: 20px;
+}
+
+#sf3{
+    width: 40%;
+    float: left;
+    /*
+    padding: 20px;
+    */
+    background-color: #f9f9f9;
+    height: 350px;
+    font-size: 24px;
+    color: #eb5033;
+    font-size: 20px;
+}
+
+#imgjazz{
+    width: 30%;
+    float: left;
+    height: 255px;
+    font-size: 20px;
+    text-align: center;
+    /*
+    padding-top: 3px;
+    */
+}
+
+#jazz{
+    /*
+    padding: 34px;
+    */
+    width: 70%;
+    height: 255px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    color: #333333;
+}
+
+#imgballet{
+    width: 30%;
+    float: left;
+    height: 255px;
+    font-size: 20px;
+    text-align: center;
+    /*
+    padding: 10px;
+    */
+}
+
+#ballet{
+    /*
+    padding: 34px;
+    */
+    width: 70%;
+    height: 255px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    color: #333333;
+}
+
+#imgtap{
+    width: 30%;
+    float: left;
+    height: 255px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#tap{
+    /*
+    padding: 34px;
+    */
+    width: 70%;
+    height: 255px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    color: #333333;
+}
+
+#description {
+    width: 40%;
+    height: 250px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    color: #333333;
+
+}
+
+#prise {
+    
+    padding-top: 90px;
+    padding-bottom: 20px;
+    width: 50%;
+    height: 190px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    color: #333333;
+}
+
+#schedule{
+    padding-top: 90px;
+    padding-bottom: 20px;
+    width: 50%;
+    height: 190px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    color: #333333;
+}
+
+
+
+
+footer{
+    display: block;
+    height: 10px;
+    background-color: #242425;
+    color: white;
+    padding: 30px 30px;
+    padding-top: 30px;
+    padding-bottom: 30px
+    font-size : 20px;
+    overflow: hidden;
+    text-align: center;
+}
+#slide1{
+    background-image: url(../img/da1.png);
+    background-size: cover;
+    background-position: center center;
+
+}
+#slide2{
+    background-image: url(../img/da2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#slide3{
+    background-image: url(../img/da3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.unslider {
+	background: rgba(0,0,0,0.15);
+}
+
+.unslider ul {
+	height: 300px;
+}
+
+.unslider ul li {
+	height: 100%;
+	padding-top: 70px;
+    box-sizing: border-box;
+}
+
+.unslider-nav {
+	height: 70px;
+    margin-top: -70px;
+    z-index: 9999;
+    position: relative;
+}
+
+.unslider-arrow {
+	display: block;
+    width: 30px;
+    height: 30px;
+    top: 155px;
+    margin-top: -16px;
+    overflow: hidden;
+    color: transparent;
+}
+
+.unslider-arrow.prev {
+    background: url(../img/prev.png) no-repeat center center #000000;
+    background-size: 7px 11px;
+    left: 30px;
+}
+
+.unslider-arrow.next {
+    background: url(../img/next.png) no-repeat center center #000000;
+    background-size: 7px 11px;
+    right: 30px;
+}
